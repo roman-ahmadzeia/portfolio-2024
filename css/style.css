@@ -10,6 +10,7 @@ body{
   padding: 0;
   font-size: 100%;
   overflow-x: hidden;
+  zoom: 0.9;
 
 }
 
@@ -269,3 +270,285 @@ body{
   font-size: 1em;
   font-weight: 200;
 }
+
+
+
+
+
+@media screen and (max-width: 400px)
+{
+  html{
+    font-family: "Poppins";
+    font-weight: 200;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+  }
+
+  .navigation-bar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .navigation-bar-items {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+
+  .navigation-bar-items:hover{
+    pointer-events: none;
+
+  }
+
+  .introduction-page
+  {
+    margin-top: 5%;
+    display:none;
+  }
+
+  .introduction-page-info
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+   .introduction-page-info-image
+  {
+    margin-left: 20%;
+
+  }
+
+  .introduction-page-info-image img
+  {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .introduction-page-info-text
+  {
+    margin-right: 25%;
+  }
+  .introduction-page-info-text h3
+  {
+    margin-top: 15%;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  .social-media
+  {
+    /*display: flex;*/
+    display: none;
+  }
+  .social-media a
+  {
+    font-size: 2em;
+    color: black;
+    margin-left: 15%;
+    transition: all 0.1s;
+  }
+
+  .social-media a:hover
+  {
+    transform: translateY(-10%);
+
+  }
+
+  .about-page
+  {
+    margin-top: 8%;
+    display: none;
+  }
+  .div-title
+  {
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+  }
+  .about-page-intro
+  {
+    margin: 0 19% 0 19%;
+    text-align: justify;
+  }
+
+  .skills-hobbies
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tech-stack-title
+  {
+    justify-content: left;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-left: 19%;
+  }
+
+  .tech-stack
+  {
+    margin-left: 18%;
+    display: flex;
+  }
+
+  #tech-stack-list-2
+  {
+    margin-left: 10%;
+  }
+  .tech-stack-list li
+  {
+    font-size: 1em;
+  }
+  .tech-stack-list li:hover
+  {
+    cursor: pointer;
+    font-weight: 300;
+  }
+
+  .hobbies
+  {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 22%;
+  }
+
+  .hobby
+  {
+    margin: 0 8% 0 8%;
+
+  }
+  .hobby-img
+  {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.1s;
+  }
+  .hobby-img:hover
+  {
+    cursor: pointer;
+    transform: translateY(-8%);
+  }
+  .hobby-title
+  {
+    font-weight: 300;
+    text-align: center;
+  }
+  .work-experience
+  {
+    margin: 8% 19% 0 19%;
+    display: none;
+  }
+  .work-experience-list-selector li
+  {
+    list-style: none;
+    margin-top: 20%;
+  }
+  .work-experience-list-selector li button
+  {
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    font-weight: 300;
+    font-size: 1em;
+  }
+  .work-experience-list-selector li button:hover
+  {
+    transform: translateY(-20%);
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .work-experience-list
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .experience-x
+  {
+    width: 80%;
+  }
+  .at
+  {
+    font-weight: 700;
+  }
+
+  .experience-x h1
+  {
+    text-align: center;
+    justify-content: center;
+    font-size: 1em;
+    font-weight: 300;
+  }
+
+  #web-developer
+  {
+    display: none;
+  }
+
+  .project-page
+  {
+    margin: 8% 19% 0 19%;
+    display: none;
+  }
+
+  #project-2
+  {
+    display: none;
+  }
+
+  #project-3
+  {
+    display: none;
+  }
+  .fittrack-ss
+  {
+    justify-content: center;
+    text-align: center;
+    margin-left: 40%;
+    width: auto;
+    height: 30%;
+  }
+
+  .twitter-ss
+  {
+    justify-content: center;
+    text-align: center;
+    margin-left: 30%;
+    width: auto;
+    height: 25%;
+  }
+
+  #project-4
+  {
+    display: none;
+  }
+
+  #project-5
+  {
+    display: none;
+  }
+
+  .footer
+  {
+    display: none;
+    margin-top: 8%;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer h1{
+    font-size: 1em;
+    font-weight: 200;
+  }
+
+
+
+}
+
